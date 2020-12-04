@@ -1,0 +1,133 @@
+Index: index.html
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><!DOCTYPE html>\r\n<html lang=\"en\">\r\n<head>\r\n    <meta charset=\"UTF-8\">\r\n    <title>ØDech' - L'e-commerce zéro déchet</title>\r\n    <link rel=\"stylesheet\" href=\"style1.css\">\r\n</head>\r\n<body>\r\n    <header>\r\n        <nav id=\"container\">\r\n            <div id=\"container1\">\r\n                <a href=\"#\"><img src=\"logo.png\" alt=\"logo\" width=\"70px\"/></a>\r\n                <p>L'e-commerce zéro déchet</p>\r\n            </div>\r\n            <form>\r\n                <input type=\"text\" placeholder=\"Rechercher un article\" aria-label=\"Search\">\r\n                <button type=\"submit\">Recherche</button>\r\n            </form>\r\n            <ul id=\"barredroite\">\r\n                <li>\r\n                    <a href=\"inscription.html\">S'inscrire</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"moncompte.html\">Mon compte</a>\r\n                </li>\r\n                <li>\r\n                    <a href=\"monpanier.html\"><img src=\"caddie.png\" title=\"Voir panier\" alt=\"panier\" width=\"40px\"/></a>\r\n                </li>\r\n            </ul>\r\n\r\n        </nav>\r\n    </header>\r\n    <section>\r\n        <article>\r\n\r\n        </article>\r\n    </section>\r\n    <footer>\r\n\r\n    </footer>\r\n</body>\r\n</html>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- index.html	(revision f92e6be2ec886abbc2a2fd06704968c1197435a2)
++++ index.html	(date 1607077490876)
+@@ -7,10 +7,10 @@
+ </head>
+ <body>
+     <header>
+-        <nav id="container">
+-            <div id="container1">
+-                <a href="#"><img src="logo.png" alt="logo" width="70px"/></a>
+-                <p>L'e-commerce zéro déchet</p>
++        <nav id="container1">
++            <div id="container1a">
++                <img src="logo.png" alt="logo" width="70px"/>
++                <p id="slogan">L'e-commerce zéro déchet</p>
+             </div>
+             <form>
+                 <input type="text" placeholder="Rechercher un article" aria-label="Search">
+@@ -28,11 +28,25 @@
+                 </li>
+             </ul>
+ 
++        </nav>
++        <nav id="container2">
++            <div id="container2a">
++                <li class="deroulant"><a href="#">Cosmétique</a></li>
++                    <ul class="sous">
++                        <li><a href="savonssolides.html">Savons solides</li>
++                        <li><a href="shampooings.html">Shampooings</a></li>
++                        <li><a href="dentifrices.html">Dentifrices solides</a></li>
++                    </ul>
++                <li class="deroulant"><a href="#">Produits d'entretien</a></li>
++                <li class="deroulant"><a href="#">Alimentation</a></li>
++            </div>
+         </nav>
+     </header>
+     <section>
+         <article>
+-
++        <p>
++            dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>dfgkhdsfkjgs<br>
++        </p>
+         </article>
+     </section>
+     <footer>
+Index: style1.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>body{\r\n    margin:0;\r\n    display: flex;\r\n    font-family: \"Trebuchet MS\";\r\n}\r\na {\r\n    outline: none;\r\n    text-decoration: none;\r\n    padding: 2px 1px 0;\r\n}\r\na:link {\r\n    color: #617D40;\r\n}\r\na:visited {\r\n    color: #85AB57;\r\n}\r\na:focus {\r\n    color: #42321c;\r\n}\r\na:active {\r\n    color: #749C43;\r\n}\r\na:hover{\r\n    border-bottom: 1px solid #42321c;\r\n    color: #42321c;\r\n}\r\nnav{\r\n    display: flex;\r\n    background-color: floralwhite;\r\n    height: 10vh;\r\n    width: 100vw;\r\n    justify-content: space-between;\r\n}\r\n#container1{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\np {\r\n    width=5vw;\r\n    color: #42321c;\r\n}\r\nform{\r\n    display: flex;\r\n    align-items: center;\r\n    width:50vw;\r\n    justify-content: center;\r\n}\r\ninput{\r\n    width:600px;\r\n    height:35px;\r\n}\r\nbutton{\r\n    border-radius: 10px;\r\n    height:35px;\r\n    margin-left: 5px;\r\n}\r\nul{\r\n    display: flex;\r\n    justify-content: space-between;\r\n    width: 17vw;\r\n    list-style-type: none;\r\n    align-items: center;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- style1.css	(revision f92e6be2ec886abbc2a2fd06704968c1197435a2)
++++ style1.css	(date 1607077858539)
+@@ -12,7 +12,7 @@
+     color: #617D40;
+ }
+ a:visited {
+-    color: #85AB57;
++    color: #617D40;
+ }
+ a:focus {
+     color: #42321c;
+@@ -24,19 +24,51 @@
+     border-bottom: 1px solid #42321c;
+     color: #42321c;
+ }
+-nav{
++#container1{
+     display: flex;
+     background-color: floralwhite;
+     height: 10vh;
+     width: 100vw;
+     justify-content: space-between;
++    position: fixed;
+ }
+-#container1{
++#container1a{
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+-p {
++#container2{
++    display: flex;
++    background-color:#c8f193;
++    margin-top: 10vh;
++    height: 3vh;
++    width: 100vw;
++    position: fixed;
++    box-shadow: 0px 1px 2px #2B4D02;
++}
++#container2a{
++    display: flex;
++    width: 50vw;
++    justify-content: space-between;
++    position: fixed;
++    list-style-type: none;
++}
++.deroulant>a::after{
++    content:"▼";
++}
++.sous{
++    display: flex;
++    flex-direction: column;
++    list-style-type: none;
++    box-shadow: 0px 1px 2px #2B4D02;
++    background-color:#c8f193;
++    position: absolute;
++}
++.sous>li{
++    float: none;
++    text-align: left;
++}
++#slogan {
+     width=5vw;
+     color: #42321c;
+ }
+@@ -55,7 +87,7 @@
+     height:35px;
+     margin-left: 5px;
+ }
+-ul{
++#barredroite{
+     display: flex;
+     justify-content: space-between;
+     width: 17vw;
