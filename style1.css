@@ -1,6 +1,10 @@
 body{
     margin:0;
+    padding:0;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height:100vh;
     font-family: "Trebuchet MS";
 }
 a {
@@ -12,7 +16,7 @@ a:link {
     color: #617D40;
 }
 a:visited {
-    color: #85AB57;
+    color: #617D40;
 }
 a:focus {
     color: #42321c;
@@ -24,27 +28,20 @@ a:hover{
     border-bottom: 1px solid #42321c;
     color: #42321c;
 }
-nav{
+#container1{
     display: flex;
     background-color: floralwhite;
     height: 10vh;
     width: 100vw;
-    justify-content: space-between;
-}
-#container1{
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
     position: fixed;
-    border: 1px solid black;
+    align-items: center;
+    justify-content: space-between;
 }
 #container1a{
     display: flex;
     align-items: center;
-    border: 1px solid black;
 }
 #slogan {
-    width=5vw;
     color: #42321c;
 }
 form{
@@ -52,7 +49,6 @@ form{
     align-items: center;
     width:50vw;
     justify-content: center;
-    border: 1px solid black;
 }
 input{
     width:600px;
@@ -69,24 +65,79 @@ button{
     width: 17vw;
     list-style-type: none;
     align-items: center;
-    border: 1px solid black;
 }
 #container2{
+    display: flex;
+    list-style:none;
     height:4vh;
+    width:100vw;
+    justify-content: center;
     background-color: #c4eb91;
-    position: fixed;
+    position: sticky;
     margin-top: 10vh;
+    box-shadow: 0px 1px 2px #2B4D02;
+}
+nav > ul{
+    margin:0;
+    padding:0;
+}
+nav > ul::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+#container2 a{
+    display: inline-block;
+}
+nav > ul > li{
+    float: left;
+    position: relative;
 }
 #container2a{
     display: flex;
-    width: 50vw;
-    border: 1px solid black;
+    list-style-type: none;
+    width: 40vw;
     justify-content: space-around;
 }
-.sous{
-    list-style:none;
+.deroulant>a::after {
+    content: "▼";
 }
-.sous li{
-    box-shadow: 0px 1px 2px #2B4D02;
+.sous{
+    display: none;
     list-style:none;
+    width: 15vw;
+    background-color: #c4eb91;
+    height: fit-content;
+    padding: 5px;
+    box-shadow: 0px 1px 2px #2B4D02;
+}
+nav li:hover .sous{
+    display: inline-block;
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    padding: 0px;
+    z-index: 1000;
+}
+header{
+    height:14vh;
+}
+section {
+    background-color: floralwhite;
+    height: 71vh;
+}
+footer {
+    display: flex;
+    background-color: #c4eb91;
+    height: 15vh;
+}
+#footer1{
+    display: flex;
+    border: 1px solid black;
+    width:50vw;
+}
+#footer2{
+    display: flex;
+    border: 1px solid black;
+    width:50vw;
 }
