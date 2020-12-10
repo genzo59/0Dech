@@ -1,3 +1,9 @@
 #recherche{
     min-width: 500px;
 }
+
+@media (max-width: 500px) {
+    #recherche{
+        min-width: 200px;
+    }
+}
