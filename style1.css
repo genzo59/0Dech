@@ -4,14 +4,17 @@
 .bg-floral{
     background-color: floralwhite;
 }
-.font-dech{
-    font-family: 'Trebuchet MS';
+.bg-vtfonc{
+    background-color: #2b4d02;
 }
 .bg-vclair{
     background-color: #85AB57;
 }
 .text-vfonc{
     color: #617D40;
+}
+.font-dech{
+    font-family: 'Trebuchet MS';
 }
 /*
 a:hover{
