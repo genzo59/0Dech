@@ -1,3 +1,23 @@
+.bg-vfonc{
+    background-color: #617D40;
+}
+.bg-floral{
+    background-color: floralwhite;
+}
+.font-dech{
+    font-family: 'Trebuchet MS';
+}
+.bg-vclair{
+    background-color: #85AB57;
+}
+.text-vfonc{
+    color: #617D40;
+}
+/*
+a:hover{
+    color: mediumvioletred!important;
+    border-bottom: 1px solid #42321c;
+}
 body{
     margin:0;
     padding:0;
@@ -24,10 +44,7 @@ a:focus {
 a:active {
     color: #749C43;
 }
-a:hover{
-    border-bottom: 1px solid #42321c;
-    color: #42321c;
-}
+
 #container1{
     display: flex;
     background-color: floralwhite;
@@ -140,4 +157,4 @@ footer {
     display: flex;
     border: 1px solid grey;
     width:50vw;
-}
+}*/
