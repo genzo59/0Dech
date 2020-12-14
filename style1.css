@@ -13,6 +13,9 @@
 .text-vfonc{
     color: #617D40;
 }
+.text-vfonc:hover{
+    color: #617D40;
+}
 .font-dech{
     font-family: 'Trebuchet MS';
 }
