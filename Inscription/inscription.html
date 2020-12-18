@@ -73,6 +73,27 @@
                 </div>
             </li>
         </ul>
+
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">EN CONSTRUCTION !!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+
+                        Aïe Aïe Aïe<br>
+                        Ceci est encore en construction
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn text-white bg-vfonc" data-dismiss="modal">Fermer</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
     <div class="container">
         <nav aria-label="breadcrumb" class="text-center align-items-center bg-vfonc">
@@ -165,7 +186,7 @@
                     <label for="condi">J'ai compris les conditions d'utilisation du site</label>
                     <input class="bouton" type="checkbox" id="condi" required>
                     <br/>
-                    <button type="submit">Valider</button>
+                    <button type="submit" data-toggle="modal" data-target="#exampleModal">Valider</button>
                     <button type="reset">Annuler</button>
 
                 </fieldset>
